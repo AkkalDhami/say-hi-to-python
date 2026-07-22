@@ -6,7 +6,6 @@ user = {
     "is_active": True,
     "is_admin": False,
     "session_id": "x-session-id",
-    "session_id": "x-session-id",
 }
 
 print(user)

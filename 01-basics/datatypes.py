@@ -1,6 +1,9 @@
+import math
+import random
+
 ## Datatypes
 
-'''
+"""
 
 Number: 123, 1.23,  1+2j, 0b111
 String: "Hello World", 'akkal'
@@ -12,7 +15,7 @@ Set: {1, 2, 3}
 None: None
 File: open('file.txt')
 
-'''
+"""
 
 """ 
 #  Advanced: Decorators, Generators, Iterators
@@ -28,13 +31,13 @@ print(username)
 
 print(type(username))
 
-username = 1 # creates a new variable in memory
+username = 1  # creates a new variable in memory
 
 print(type(username))
 print(username)
 
 
-print("\nList:") # (array)
+print("\nList:")  # (array)
 mylist = [1, 2, 3, [4, 5, 6]]
 
 print(type(mylist))
@@ -70,15 +73,11 @@ myvar = None
 print(myvar)
 
 
-import math
-
 print("\nMath:")
 print(math.pi)
 print(math.e)
 print(math.sqrt(9))
 
-
-import random
 
 print("\nRandom:")
 print(random.random())
